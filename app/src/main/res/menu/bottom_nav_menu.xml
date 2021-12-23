@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_postagens"
+        android:icon="@drawable/ic_library_books_24"
+        android:title="@string/title_postagens" />
+
+    <item
+        android:id="@+id/navigation_albuns"
+        android:icon="@drawable/ic_photo_album_24"
+        android:title="@string/title_albuns" />
+
+    <item
+        android:id="@+id/navigation_todos"
+        android:icon="@drawable/to_do_list"
+        android:title="@string/title_todos" />
+
+</menu>

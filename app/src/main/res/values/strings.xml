@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Framework</string>
+    <string name="title_postagens">Postagens</string>
+    <string name="title_albuns">Albuns</string>
+    <string name="title_todos">To-Dos</string>
+    <string name="ERROR_INTERNET_CONNECTION">Conexão sem internet</string>
+    <string name="ERROR_UNEXPECTED">Erro inexperado</string>
+    <string name="ERROR_POSTAGENS">Falha ao buscar postagens</string>
+</resources>

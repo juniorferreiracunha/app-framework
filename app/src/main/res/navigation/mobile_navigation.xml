@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_postagens">
+
+    <fragment
+        android:id="@+id/navigation_postagens"
+        android:name="br.com.juniorframework.appframework.ui.postagens.PostagensFragment"
+        android:label="@string/title_postagens"
+        tools:layout="@layout/fragment_postagens" />
+
+    <fragment
+        android:id="@+id/navigation_albuns"
+        android:name="br.com.juniorframework.appframework.ui.albuns.AlbunsFragment"
+        android:label="@string/title_albuns"
+        tools:layout="@layout/fragment_albuns" />
+
+    <fragment
+        android:id="@+id/navigation_todos"
+        android:name="br.com.juniorframework.appframework.ui.todos.ToDosFragment"
+        android:label="@string/title_todos"
+        tools:layout="@layout/fragment_todos" />
+</navigation>
